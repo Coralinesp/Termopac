@@ -370,12 +370,12 @@ export default function TermopacIntegration() {
 
             <div className="border-2 border-gray-200 bg-white p-8 shadow-md">
               <h3 className="mb-6 text-2xl font-bold tracking-tight text-gray-900">Actualizar Inventario</h3>
-              <p className="mb-6 text-sm font-medium text-gray-600">Sin miedo al éxito: clic y refresca 😎</p>
+              <p className="mb-6 text-sm font-medium text-gray-600">Haz clic en el boton de abajo para actualizar el inventario en caso de que falle el refrescado automático.</p>
               <Button
                 onClick={actualizarInventario}
                 className="border-2 border-blue-600 bg-blue-600 px-8 py-4 text-lg font-bold tracking-tight text-white transition-all hover:bg-blue-700"
               >
-                ACTUALIZAR INVENTARIO
+                Actualizar
               </Button>
             </div>
           </div>
